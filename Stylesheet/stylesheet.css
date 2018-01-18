@@ -1,0 +1,434 @@
+.left{
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clearfix:after{
+    content: "";
+    clear: both;
+    display: none;
+    
+}
+div{
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+#countdown p {
+    text-align: center;
+    font-size: 25px;
+    margin-top:10px;
+    padding-left: 100px;
+    word-spacing: 30px;
+    color: beige;
+    position: fixed;
+    top: 0px;
+    left: 470px; 
+    font-family: 'Dosis', sans-serif;
+}
+#first{
+    padding-top:40px;
+}
+#first h1{
+    position: absolute;
+    top: 100px;
+    text-align: center;
+    left: 420px;
+    color: snow;
+    font-family: 'Amatic SC', cursive;
+    font-size: 80px;
+    word-spacing: 30px;
+    z-index: 2;
+}
+
+#first img{
+    position: relative;
+    width: 100%;
+    height:610px;
+    opacity: 0.4;
+    
+}
+#first img:hover{
+    opacity: 0.1;
+    transition: 1s;
+    
+}
+
+#header{
+    width: 100%;
+    height: 50px;
+    background-color:black;
+    position: fixed;
+    margin-top:-10px;
+    z-index: 100;
+}
+#header #menu {
+    padding-top: 20px;
+    padding-left: 10px;
+    word-spacing: 15px;
+}
+#header #menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+#header #logo img {
+    width: 200px;
+    height: 100%;  
+    text-align: right;
+    position: relative;
+    top: -65px;
+    left: 680px;
+}
+
+#home:target,
+#about:target,
+#speakers:target,
+#sponsors:target,
+#team:target{
+    display: block;
+}
+
+#home{
+    width: 100%;
+    height: auto;
+    background-color:beige;
+    word-spacing: 25px;
+    line-height: 25px;
+}
+
+#about {
+    width: 100%;
+    height: 580px;
+    background-color: whitesmoke;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+#about #about1{
+    width: 450px;
+    padding: 10px 100px;
+    color: black;
+    overflow-x: hidden;
+}
+#about #about1 h1{
+    text-align: center;
+    font-size: 40px;
+}
+#about #about1 p{
+    word-spacing: 10px;
+    line-height: 25px;
+    
+}
+
+#about #about2{
+    height: 400px;
+    padding: 20px 100px 10px 100px;
+    color: black;
+    overflow-x: hidden;
+}
+#about #about2 h1{
+    text-align: center;
+    font-size: 40px;
+}
+#about #about2 p{
+    text-align: center;
+}
+
+#about #about2 p{
+    font-size: 15px;
+    word-spacing: 9px;
+    line-height: 25px;
+}
+
+#speakers{
+    width: 100%;
+    height: 2000px;
+    background-color: whitesmoke;
+    display: block;
+    position: absolute;
+    top: 1300px;
+    
+}
+#speakers #heading h1{
+    position: absolute;
+    top: 30px;
+    left: 590px;
+    border: thin solid black;
+}
+
+#speakers #heading #s1 img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 80px;
+    top: 150px;
+}
+#speakers #heading #info1 h1{
+    position: absolute;
+    left: 340px;
+    top: 130px;
+}
+#speakers #heading #info1 p{
+    width: 280px;
+    text-align: center;
+    position: absolute;
+    left: 300px;
+    top: 190px;
+}
+
+#speakers #heading #s2 img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 150px;
+    left: 690px;
+}
+#speakers #heading #info2 h1{
+    position: absolute;
+    top: 130px;
+    left: 980px;
+}
+#speakers #heading #info2 p{
+    width: 280px;
+    position: absolute;
+    top: 190px;
+    left: 950px;
+    text-align: center;
+}
+
+#speakers #heading #s3 img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 450px;
+    left: 80px;
+}
+#speakers #heading #info3 h1{
+    position: absolute;
+    top: 430px;
+    left: 340px;
+}
+#speakers #heading #info3 p{
+    width: 280px;
+    position: absolute;
+    top: 490px;
+    left: 310px;
+    text-align: center
+}
+
+#speakers #heading #s4 img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 690px;
+    top: 440px;
+}
+#speakers #heading #info4 h1{
+    position: absolute;
+    left: 980px;
+    top: 420px;
+}
+#speakers #heading #info4 p{
+    width: 280px;
+    text-align: center;
+    position: absolute;
+    left: 960px;
+    top: 480px;
+}
+
+#speakers #heading #s5 img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 80px;
+    top: 750px;
+}
+#speakers #heading #info5 h1{
+    position: absolute;
+    left: 340px;
+    top: 730px;
+}
+#speakers #heading #info5 p{
+    width: 280px;
+    text-align: center;
+    position: absolute;
+    left: 310px;
+    top: 790px
+}
+
+#speakers #heading #s6 img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 750px;
+    left: 690px;
+}
+#speakers #heading #info6 h1{
+    position: absolute;
+    top: 730px;
+    left: 980px;
+}
+#speakers #heading #info6 p{
+    width: 280px;
+    position: absolute;
+    top: 790px;
+    left: 950px;
+    text-align: center;
+}
+
+#speakers #heading #s7 img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 80px;
+    top: 1060px;
+}
+#speakers #heading #info7 h1{
+    position: absolute;
+    left: 340px;
+    top: 1040px;
+}
+#speakers #heading #info7 p{
+    width: 280px;
+    text-align: center;
+    position: absolute;
+    left: 310px;
+    top: 1100px;
+}
+
+#speakers #heading #s8 img{
+    width: 20s0px;
+    height: 200px;
+    position: absolute;
+    top: 1060px;
+    left: 690px;
+}
+#speakers #heading #info8 h1{
+    position: absolute;
+    top: 1040px;
+    left: 980px;
+}
+#speakers #heading #info8 p{
+    width: 280px;
+    position: absolute;
+    top: 1100px;
+    left: 950px;
+    text-align: center;
+}
+
+#speakers #heading #s9 img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 80px;
+    top: 1370px;
+}
+#speakers #heading #info9 h1{
+    position: absolute;
+    left: 340px;
+    top: 1350px;
+}
+#speakers #heading #info9 p{
+    width: 280px;
+    text-align: center;
+    position: absolute;
+    left: 310px;
+    top: 1410px;
+}
+
+#speakers #heading #s10 img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 1360px;
+    left: 690px;
+}
+#speakers #heading #info10 h1{
+    position: absolute;
+    top: 1340px;
+    left: 980px;
+}
+#speakers #heading #info10 p{
+    width: 280px;
+    position: absolute;
+    top: 1400px;
+    left: 950px;
+    text-align: center;
+}
+
+#sponsors{
+    width: 100%;
+    height: 600px;
+    background-color: whitesmoke; 
+    position: absolute;
+    top: 3170px;
+    padding-top: 20px;
+}
+#sponsors h1{
+    position: absolute;
+    left: 590px;
+    top: 30px;
+    border: thin solid black;
+}
+
+
+#team{
+    width: 100%;
+    height: 800px;
+    position: absolute;
+    top: 3700px;
+    background-color: whitesmoke;
+    display: block;
+}
+#team h1{
+    position: absolute;
+    left: 630px;
+    top: 30px;
+    border: thin solid black;
+}
+
+#footer{
+    width: 100%;
+    height: 230px;
+    background-color: whites;
+    position: absolute;
+    top: 4500px;
+}
+#footer h1{
+    color: red;
+    font-size: 50px;
+    position: absolute;
+    left: 40px;
+
+}
+#footer a{
+    position: absolute;
+    left: 35px;
+    top: 145px;
+    padding: 0px;
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+}
+#footer h2{
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    color: red;
+    font-size: 18px;
+}
+#footer h3{
+    color: red;
+    position: absolute;
+    top: 94px;
+    left: 185px;
+    font-size: 18px;
+}
